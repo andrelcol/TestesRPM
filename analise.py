@@ -6,19 +6,20 @@ metricas_motores = []
 
 # Define o caminho para a pasta de dados
 pasta_dados = os.path.join(os.getcwd(), 'TestesRPM', 'TesteRPM-LEGO')
+pasta = "/home/andre/Desktop/lego/TestesRPM/TesteRPM-LEGO"
 
 # Loop pelos arquivos na pasta de dados
-for arquivo in os.listdir(pasta_dados):
+for arquivo in os.listdir(pasta):
     # Verifica se o arquivo é um arquivo de texto
-    if arquivo.endswith(".rtf"):
-        # Lê os dados do arquivo
-        with open(os.path.join(pasta_dados, arquivo), 'r') as f:
-            dados = [float(linha) for linha in f]
+    if arquivo.endswith(".txt"):
+        # Lê os dados do arquivo a partir da segunda linha
+        with open(os.path.join(pasta, arquivo), 'r') as f:
+            dados = [float(linha) for linha in f.readlines()[1:]]
         
         # Calcula as métricas estatísticas
         media = statistics.mean(dados)
         mediana = statistics.median(dados)
-        moda = statistics.mode(dados)
+        #moda = statistics.mode(dados)
         desvio_padrao = statistics.stdev(dados)
         coef_variacao = (desvio_padrao / media) * 100
         
@@ -27,23 +28,45 @@ for arquivo in os.listdir(pasta_dados):
             "arquivo": arquivo,
             "media": media,
             "mediana": mediana,
-            "moda": moda,
+            #"moda": moda,
             "desvio_padrao": desvio_padrao,
             "coef_variacao": coef_variacao
         })
 
 # Encontra o motor com o melhor desempenho (menor coeficiente de variação)
-melhor_motor = min(metricas_motores, key=lambda x: x["coef_variacao"])
+#melhor_motor = min(metricas_motores, key=lambda x: x["coef_variacao"])
 
-# Imprime as métricas de cada motor
-for metricas in metricas_motores:
-    print("Arquivo: ", metricas["arquivo"])
-    print("Média: ", metricas["media"])
-    print("Mediana: ", metricas["mediana"])
-    print("Moda: ", metricas["moda"])
-    print("Desvio Padrão: ", metricas["desvio_padrao"])
-    print("Coeficiente de Variação: ", metricas["coef_variacao"])
-    print()
+# Opção de ordenar em ordem crescente dos melhores
+#ordenado_metricas = sorted(metricas_motores, key=lambda x: x["coef_variacao"])
 
-# Imprime o melhor motor
-print("O motor com melhor desempenho é o arquivo", melhor_motor["arquivo"], "com um coeficiente de variação de", melhor_motor["coef_variacao"])
+# Encontra o motor com o melhor desempenho (maior média e desempate por coeficiente de variação)
+melhor_motor = max(metricas_motores, key=lambda x: (x["media"], -x["coef_variacao"]))
+
+# Opção de ordenar em ordem crescente dos melhores
+ordenado_metricas = sorted(metricas_motores, key=lambda x: x["coef_variacao"], reverse=True)
+
+
+print("\nOpções:\n1 - Listar em ordem crescente dos melhores\n2 - Imprimir informações completas de um arquivo específico")
+opcao = int(input("Digite a opção desejada: "))
+
+if opcao == 1:
+    # Imprime as métricas de cada motor ordenado em ordem crescente dos melhores
+    for metricas in ordenado_metricas:
+        print("Arquivo: ", metricas["arquivo"])
+        print("Média: ", metricas["media"])
+        print("Mediana: ", metricas["mediana"])
+        #print("Moda: ", metricas["moda"])
+        print("Desvio Padrão: ", metricas["desvio_padrao"])
+        print("Coeficiente de Variação: ", metricas["coef_variacao"])
+        print()
+elif opcao == 2:
+    # Opção de imprimir as informações completas de um arquivo específico
+    arquivo_escolhido = input("Digite o nome do arquivo que deseja ver as informações completas: ")
+    for metricas in metricas_motores:
+        if metricas["arquivo"] == arquivo_escolhido:
+            print("Arquivo: ", metricas["arquivo"])
+            print("Média: ", metricas["media"])
+            print("Mediana: ", metricas["mediana"])
+            #print("Moda: ", metricas["moda"])
+            print("Desvio Padrão: ", metricas["desvio_padrao"])
+            print("Coeficiente de Variação: ", metricas["coef_variacao"])

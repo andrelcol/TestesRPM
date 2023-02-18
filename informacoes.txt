@@ -1,0 +1,277 @@
+Arquivo: direitoNegoNey.txt
+Média: 166.83934426229507
+Mediana: 166.67
+Desvio Padrão: 0.9123684724431224
+Coeficiente de Variação: 0.5468545063379954
+
+Arquivo: diferencialAsa.txt
+Média: 152.8227868852459
+Mediana: 152.83
+Desvio Padrão: 0.26010338423750384
+Coeficiente de Variação: 0.17019934627472444
+
+Arquivo: diferencialNegoNey.txt
+Média: 152.8060655737705
+Mediana: 152.83
+Desvio Padrão: 0.22801519458524844
+Coeficiente de Variação: 0.14921868037703587
+
+Arquivo: direitoAsa.txt
+Média: 152.3088524590164
+Mediana: 152.33
+Desvio Padrão: 0.21215637597973153
+Coeficiente de Variação: 0.13929352926929775
+
+Arquivo: 15.txt
+Média: 152.28377049180327
+Mediana: 152.33
+Desvio Padrão: 0.10467670760372545
+Coeficiente de Variação: 0.06873792740071386
+
+Arquivo: 19doTremQuetemPecaVerdeEtem2motores.txt
+Média: 151.41213114754098
+Mediana: 151.33
+Desvio Padrão: 0.16558094449642394
+Coeficiente de Variação: 0.10935777948668882
+
+Arquivo: esquerdoDente.txt
+Média: 150.82
+Mediana: 150.83
+Desvio Padrão: 0.3132464418526265
+Coeficiente de Variação: 0.20769555884672225
+
+Arquivo: diferencialDente.txt
+Média: 150.11409836065573
+Mediana: 150.0
+Desvio Padrão: 0.35054422949265684
+Coeficiente de Variação: 0.23351852578860308
+
+Arquivo: esquerdoAsa.txt
+Média: 149.82737704918034
+Mediana: 149.83
+Desvio Padrão: 0.16906509238894107
+Coeficiente de Variação: 0.11283991999235628
+
+Arquivo: direitoDente.txt
+Média: 149.3195081967213
+Mediana: 149.33
+Desvio Padrão: 0.20229867547357042
+Coeficiente de Variação: 0.1354804056862092
+
+Arquivo: caudaEscorpiao.txt
+Média: 149.0544262295082
+Mediana: 149.0
+Desvio Padrão: 0.1920982785812494
+Coeficiente de Variação: 0.12887794307125366
+
+Arquivo: 46.txt
+Média: 148.17803278688524
+Mediana: 148.17
+Desvio Padrão: 0.21888977189543954
+Coeficiente de Variação: 0.14772079759639836
+
+Arquivo: 20Escorpiao.txt
+Média: 146.8195081967213
+Mediana: 147.0
+Desvio Padrão: 0.3833772129791916
+Coeficiente de Variação: 0.2611214393018604
+
+Arquivo: 2.txt
+Média: 146.70852459016393
+Mediana: 146.67
+Desvio Padrão: 0.0971225354140196
+Coeficiente de Variação: 0.0662010170747305
+
+Arquivo: 48.txt
+Média: 146.61770491803279
+Mediana: 146.67
+Desvio Padrão: 0.3743589785336303
+Coeficiente de Variação: 0.25532999492995556
+
+Arquivo: 1.txt
+Média: 145.78098360655738
+Mediana: 145.83
+Desvio Padrão: 0.3353540662147638
+Coeficiente de Variação: 0.2300396512070723
+
+Arquivo: centroKowalski.txt
+Média: 145.6649180327869
+Mediana: 145.67
+Desvio Padrão: 0.1302641284828615
+Coeficiente de Variação: 0.08942724867599287
+
+Arquivo: esquerdoNegoNey.txt
+Média: 145.45901639344262
+Mediana: 145.17
+Desvio Padrão: 0.6782494745495781
+Coeficiente de Variação: 0.4662821813087373
+
+Arquivo: esquerdoRoboPeso.txt
+Média: 145.40918032786885
+Mediana: 145.33
+Desvio Padrão: 0.14533060106720996
+Coeficiente de Variação: 0.09994595990398837
+
+Arquivo: 42.txt
+Média: 145.1288524590164
+Mediana: 145.17
+Desvio Padrão: 0.2498139198193709
+Coeficiente de Variação: 0.17213249852569254
+
+Arquivo: 33.txt
+Média: 144.15786885245902
+Mediana: 144.17
+Desvio Padrão: 0.23860088539999377
+Coeficiente de Variação: 0.16551360484122735
+
+Arquivo: 4.txt
+Média: 144.13852459016394
+Mediana: 144.17
+Desvio Padrão: 0.2670133334097379
+Coeficiente de Variação: 0.18524772205692394
+
+Arquivo: 41.txt
+Média: 144.0272131147541
+Mediana: 144.0
+Desvio Padrão: 0.14805552052682197
+Coeficiente de Variação: 0.10279690714341484
+
+Arquivo: 44.txt
+Média: 143.98065573770492
+Mediana: 144.0
+Desvio Padrão: 0.1344230740666519
+Coeficiente de Variação: 0.09336189877585747
+
+Arquivo: 12.txt
+Média: 143.98065573770492
+Mediana: 144.0
+Desvio Padrão: 0.1344230740666519
+Coeficiente de Variação: 0.09336189877585747
+
+Arquivo: 14.txt
+Média: 143.9734426229508
+Mediana: 144.17
+Desvio Padrão: 0.32141813496804655
+Coeficiente de Variação: 0.2232482109980534
+
+Arquivo: 20.txt
+Média: 143.6655737704918
+Mediana: 143.67
+Desvio Padrão: 0.14703202134415116
+Coeficiente de Variação: 0.1023432527955774
+
+Arquivo: 9.txt
+Média: 143.302131147541
+Mediana: 143.33
+Desvio Padrão: 0.1297448104819443
+Coeficiente de Variação: 0.09053934469987865
+
+Arquivo: 45.txt
+Média: 143.29508196721312
+Mediana: 143.33
+Desvio Padrão: 0.3341388082360357
+Coeficiente de Variação: 0.23318232813634795
+
+Arquivo: 11.txt
+Média: 142.68229508196723
+Mediana: 142.67
+Desvio Padrão: 0.2010173578128931
+Coeficiente de Variação: 0.1408845839614606
+
+Arquivo: 39.txt
+Média: 142.59327868852458
+Mediana: 142.67
+Desvio Padrão: 0.2270074984919754
+Coeficiente de Variação: 0.15919929787703535
+
+Arquivo: 19.txt
+Média: 142.53918032786885
+Mediana: 142.67
+Desvio Padrão: 0.24829616107897579
+Coeficiente de Variação: 0.1741950251908595
+
+Arquivo: direitoRoboPeso.txt
+Média: 142.38262295081967
+Mediana: 142.33
+Desvio Padrão: 0.20041541556929712
+Coeficiente de Variação: 0.14075833933648108
+
+Arquivo: 3.txt
+Média: 142.17786885245903
+Mediana: 142.33
+Desvio Padrão: 0.5506817433996359
+Coeficiente de Variação: 0.3873188899540265
+
+Arquivo: 18.txt
+Média: 142.0088524590164
+Mediana: 142.83
+Desvio Padrão: 1.7949216309360665
+Coeficiente de Variação: 1.263950521291677
+
+Arquivo: 13.txt
+Média: 141.96180327868854
+Mediana: 141.83
+Desvio Padrão: 0.46821828312843555
+Coeficiente de Variação: 0.3298199038858821
+
+Arquivo: 24.txt
+Média: 141.12426229508196
+Mediana: 141.17
+Desvio Padrão: 0.12177108327230673
+Coeficiente de Variação: 0.0862864267929288
+
+Arquivo: NaN.txt
+Média: 140.60688524590165
+Mediana: 140.67
+Desvio Padrão: 0.21935162778521172
+Coeficiente de Variação: 0.15600347550662017
+
+Arquivo: 23.txt
+Média: 139.91360655737705
+Mediana: 140.0
+Desvio Padrão: 0.20081527819437522
+Coeficiente de Variação: 0.14352805501588087
+
+Arquivo: 16.txt
+Média: 138.79245901639345
+Mediana: 139.0
+Desvio Padrão: 0.9230251996157444
+Coeficiente de Variação: 0.6650398776396932
+
+Arquivo: 37.txt
+Média: 138.09540983606558
+Mediana: 138.0
+Desvio Padrão: 0.446667563819342
+Coeficiente de Variação: 0.32344852327067597
+
+Arquivo: diferencialFiDuNey.txt
+Média: 137.62622950819673
+Mediana: 137.5
+Desvio Padrão: 0.7372949747430937
+Coeficiente de Variação: 0.5357227160678568
+
+Arquivo: 34.txt
+Média: 137.39377049180328
+Mediana: 137.5
+Desvio Padrão: 0.4520699206038284
+Coeficiente de Variação: 0.3290323272923049
+
+Arquivo: 7.txt
+Média: 133.9972131147541
+Mediana: 134.67
+Desvio Padrão: 1.3460152687934621
+Coeficiente de Variação: 1.0045098980086593
+
+Arquivo: 28.txt
+Média: 128.2872131147541
+Mediana: 133.67
+Desvio Padrão: 14.315412339054662
+Coeficiente de Variação: 11.15887701625367
+
+Arquivo: 29.txt
+Média: 26.885737704918032
+Mediana: 26.17
+Desvio Padrão: 4.527421804594896
+Coeficiente de Variação: 16.83949257515342
+
+O motor com melhor desempenho é o arquivo direitoNegoNey.txt com uma média de 166.83934426229507 e um coeficiente de variação de 0.5468545063379954
